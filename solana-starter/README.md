@@ -32,12 +32,12 @@ During this class, we covered the concept of naming a token, including:
 
 ### 1. Adding Metadata to token
 
-- **File:** [`ts/cluster1/spl_init.ts`](https://github.com/solana-turbin3/Q1_25_Builder_shivendram16053/blob/main/solana-starter/ts/cluster1/spl_metadata.ts)  
+- **File:** [`ts/cluster1/spl_metadata.ts`](https://github.com/solana-turbin3/Q1_25_Builder_shivendram16053/blob/main/solana-starter/ts/cluster1/spl_metadata.ts)  
 - **Txn for adding metadata:** [View on Explorer](https://explorer.solana.com/tx/2PTAPSJzzBpTxAoM2yYVWnVzYREUu6PvSDGP4Q2mRTMDknj2cMsv1NJyPYgBYhzRTHnWexNEsKE6p2uCDtR2Sx3?cluster=devnet)
 
 ### 2. Transfer Your token to another person
 
-- **File:** [`ts/cluster1/spl_mint.ts`](https://github.com/solana-turbin3/Q1_25_Builder_shivendram16053/blob/main/solana-starter/ts/cluster1/spl_transfer.ts) 
+- **File:** [`ts/cluster1/spl_transfer.ts`](https://github.com/solana-turbin3/Q1_25_Builder_shivendram16053/blob/main/solana-starter/ts/cluster1/spl_transfer.ts) 
 - **Generated Details:** 
   - Associated Token Account for reciever: [View on Explorer](https://explorer.solana.com/tx/2jUvxXxAJae7cXdoWq36Lky6QHQgkgvFUEj3hM8ftpoioxhcCuB5H4d94ZVcoA7yh4uHxvGKi3mKJ2yUyjh2EfhB?cluster=devnet)
   - Transfer token: [View on Explorer](https://explorer.solana.com/tx/5NSHZny5ck5Q1TsgKhiR2WfBffrp2htEs27GQkxX3zJ5XVtSyZh2rGB8w5oCNE7yrXAnwCL3SDqoYn7VdMVn8nZ7?cluster=devnet)
