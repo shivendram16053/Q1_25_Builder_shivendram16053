@@ -1,9 +1,7 @@
 use crate::state::Escrow;
 use anchor_lang::prelude::*;
-use anchor_spl::{
-    associated_token::AssociatedToken,
-    token_interface::{transfer_checked, Mint, TokenAccount, TokenInterface, TransferChecked},
-};
+use anchor_spl::token_interface::{Mint, TokenAccount, TokenInterface, transfer_checked, TransferChecked};
+use anchor_spl::associated_token::AssociatedToken;
 
 #[derive(Accounts)]
 #[instruction(seed:u64)]
@@ -43,14 +41,14 @@ pub struct Make<'info> {
 }
 
 impl<'info> Make<'info> {
-    pub fn init_escrow(&mut self, seed: u64, recieve_amount: u64, bump: &MakeBumps) -> Result<()> {
+    pub fn init_escrow(&mut self, seed: u64, recieve_amount: u64, bump: u8) -> Result<()> {
         self.escrow.set_inner(Escrow {
             seed,
             maker: self.maker.key(),
             mint_a: self.mint_a.key(),
             mint_b: self.mint_b.key(),
             recieve_amount,
-            bump: bumps.escrow,
+            bump,
         });
 
         Ok(())
@@ -68,7 +66,7 @@ impl<'info> Make<'info> {
 
         let cpi_ctx = CpiContext::new(cpi_program, cpi_account);
 
-        transfer_checked(cpi_ctx, deposit, self.mint_a.decimals);
+        transfer_checked(cpi_ctx, deposit, self.mint_a.decimals)?;
 
         Ok(())
     }
