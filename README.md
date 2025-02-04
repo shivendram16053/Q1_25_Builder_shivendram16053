@@ -16,7 +16,7 @@ This folder was initialized for class coding practice during the first week of t
 ### 3. [Anchor Vault](https://github.com/solana-turbin3/Q1_25_Builder_shivendram16053/tree/main/anchor-vault)  
 This folder was initialized on the 1st class of 2nd week when we were learning about anchor.
 
-### 4. [Anchor Escrow](https://github.com/solana-turbin3/Q1_25_Builder_shivendram16053/tree/main/anchor-escrow)  
+### 4. [Anchor Escrow](https://github.com/solana-turbin3/Q1_25_Builder_shivendram16053/tree/main/anchor_escrow)  
 This folder was initialized for the understanding of how an escrow program work.
 
 ---
