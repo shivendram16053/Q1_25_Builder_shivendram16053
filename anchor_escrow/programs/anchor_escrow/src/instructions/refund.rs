@@ -8,7 +8,7 @@ use anchor_spl::token_interface::{
 
 
 #[derive(Accounts)]
-#[instruction(seed:u64)]
+#[instruction(seed:u8)]
 pub struct Refund<'info> {
     #[account(mut)]
     pub maker: Signer<'info>,

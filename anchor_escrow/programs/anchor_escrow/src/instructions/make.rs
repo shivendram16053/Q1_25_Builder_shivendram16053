@@ -4,7 +4,7 @@ use anchor_spl::token_interface::{Mint, TokenAccount, TokenInterface, transfer_c
 use anchor_spl::associated_token::AssociatedToken;
 
 #[derive(Accounts)]
-#[instruction(seed:u64)]
+#[instruction(seed:u8)]
 pub struct Make<'info> {
     #[account(mut)]
     pub maker: Signer<'info>,
@@ -41,14 +41,14 @@ pub struct Make<'info> {
 }
 
 impl<'info> Make<'info> {
-    pub fn init_escrow(&mut self, seed: u64, recieve_amount: u64, bump: u8) -> Result<()> {
+    pub fn init_escrow(&mut self, seed: u64, recieve_amount: u64,bumps: &MakeBumps) -> Result<()> {
         self.escrow.set_inner(Escrow {
             seed,
             maker: self.maker.key(),
             mint_a: self.mint_a.key(),
             mint_b: self.mint_b.key(),
             recieve_amount,
-            bump,
+            bump:bumps.escrow,
         });
 
         Ok(())
