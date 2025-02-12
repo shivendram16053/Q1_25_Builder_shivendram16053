@@ -22,6 +22,9 @@ This folder was initialized for the understanding of how an escrow program work.
 ### 5. [Anchor Marketplace](https://github.com/solana-turbin3/Q1_25_Builder_shivendram16053/tree/main/anchor_marketplace)  
 In this code part, we have learnt about how to write a sc for marketplaces.
 
+### 6. [Anchor NFT Staking](https://github.com/solana-turbin3/Q1_25_Builder_shivendram16053/tree/main/nft_staking)  
+In this code part, we have learnt about the nft staking part using anchor.
+
 ---
 
 Feel free to explore and contribute! 🚀
