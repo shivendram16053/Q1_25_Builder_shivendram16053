@@ -1,0 +1,3 @@
+[submodule "franchain-capstone"]
+	path = franchain-capstone
+	url = https://github.com/shivendram16053/franchain-capstone
