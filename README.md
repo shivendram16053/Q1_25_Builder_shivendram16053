@@ -34,6 +34,13 @@ A deep dive into **decentralized marketplace** development, covering smart contr
 
 ### 🎭 [Anchor NFT Staking](https://github.com/solana-turbin3/Q1_25_Builder_shivendram16053/tree/main/nft_staking)  
 An implementation of **NFT staking**, allowing users to stake their NFTs and earn rewards, demonstrating the mechanics behind **staking protocols**.
+<br/>
+
+### 💱 [Automated Market Maker (AMM)](https://github.com/solana-turbin3/Q1_25_Builder_shivendram16053/tree/main/anchor_amm)
+A project focused on **decentralized trading**, implementing an Automated Market Maker (AMM) to facilitate permissionless swaps and liquidity pools on Solana.
+
+### 🏢 [Franchain - Capstone Project](https://github.com/shivendram16053/franchain-capstone/tree/8a0f36acfd214ce75d42fc85a54c9499d8947d08)
+Franchain is designed to bring trust, transparency, and automated payments to franchise businesses using on-chain agreements and smart contracts.
 
 <br/><br/>
 ## **How to Contribute?**
