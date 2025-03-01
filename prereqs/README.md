@@ -29,13 +29,3 @@ Hope you all are doing great. This repository contains all the learning, tasks, 
      - **Transaction Link:** [View Transaction](https://explorer.solana.com/tx/53jpzyRXDKx8JhsnixV8ckDydUoXSTowWRLKkhmkK7Cv7NrFUfVDC9TfBot3FimkBt5bAo8Ljy2sp9ucpQSb8Zwt?cluster=devnet)
 
 
-
-## How to Use This Repository
-
-```bash
-# Clone the repository
-$ git clone https://github.com/your-repo/turbin3-cohort.git
-
-# Navigate to the specific assignment folder for details and code
-$ cd turbin3-cohort
-
