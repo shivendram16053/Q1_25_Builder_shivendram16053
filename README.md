@@ -43,7 +43,6 @@ A project focused on **decentralized trading**, implementing an Automated Market
 Franchain is designed to bring trust, transparency, and automated payments to franchise businesses using on-chain agreements and smart contracts.
 
 <br/><br/>
-## **How to Contribute?**
 If you have suggestions, find bugs, or want to collaborate, feel free to open a **pull request**. Contributions are always welcome! 🚀 
 <br/><br/>
 
